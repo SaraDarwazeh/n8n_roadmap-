@@ -1171,7 +1171,7 @@ export default function N8nLearningRoadmap({
                   <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl">
                     Hola Jamal 🧑‍🚀
                   </h1>
-                  <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">and hope this time will be different</p>
+                  <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">Hope this time is different</p>
                 </div>
                 <div className="flex flex-wrap gap-3 text-sm text-slate-300">
                   <Pill icon={Clock3} label={isArabic ? `${completedCount}/${totalCount} مواضيع مكتملة` : `${completedCount}/${totalCount} topics complete`} />
