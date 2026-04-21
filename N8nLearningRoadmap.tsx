@@ -213,7 +213,7 @@ const copy = {
       {
         title: "MCP environment",
         description: "Your target integration endpoint for the advanced protocol work in this roadmap.",
-        href: "https://mcp.muhjah.com",
+        href: "https://mcp.synorco.com/jamal",
         accent: "from-[#F59E0B] to-[#FCD34D]",
       },
     ],
@@ -258,7 +258,7 @@ const copy = {
       },
       whyNow: {
         title: "Why Learn This Now?",
-        text: "You have an MCP server at mcp.muhjah.com ready to use. Understanding MCP first makes the setup make sense.",
+        text: "You have an MCP server at mcp.synorco.com/jamal ready to use. Understanding MCP first makes the setup make sense.",
       },
       video: {
         title: "Watch This First",
@@ -406,7 +406,7 @@ const copy = {
         whyItMatters: "Expressions let you transform and route data without adding unnecessary code nodes, which keeps workflows readable and maintainable.",
       },
       mcp: {
-        title: "MCP Integration for mcp.muhjah.com",
+        title: "MCP Integration for mcp.synorco.com/jamal",
         kind: "Protocol Integration",
         estimatedTime: "1.5-2 hours",
         whyItMatters: "Lets n8n participate in a modern AI toolchain through a structured protocol instead of one-off glue logic.",
@@ -489,7 +489,7 @@ const copy = {
       {
         title: "بيئة MCP",
         description: "هاي نقطة الربط اللي رح تستخدمها بالشغل المتقدم على البروتوكول داخل هالخطة.",
-        href: "https://mcp.muhjah.com",
+        href: "https://mcp.synorco.com/jamal",
         accent: "from-[#F59E0B] to-[#FCD34D]",
       },
     ],
@@ -531,7 +531,7 @@ const copy = {
       },
       whyNow: {
         title: "ليش نتعلمه الآن؟",
-        text: "عندك خادم MCP جاهز على mcp.muhjah.com. لما تفهم MCP أولًا، خطوات الإعداد العملي تصير أوضح بكثير.",
+        text: "عندك خادم MCP جاهز على mcp.synorco.com/jamal. لما تفهم MCP أولًا، خطوات الإعداد العملي تصير أوضح بكثير.",
       },
       video: {
         title: "شاهد هذا أولًا",
@@ -679,7 +679,7 @@ const copy = {
         whyItMatters: "تتيح لك التعبيرات تحويل البيانات وتوجيهها دون الحاجة إلى عقد برمجية إضافية، مما يحافظ على وضوح التدفقات.",
       },
       mcp: {
-        title: "تكامل MCP مع mcp.muhjah.com",
+        title: "تكامل MCP مع mcp.synorco.com/jamal",
         kind: "تكامل بروتوكولي",
         estimatedTime: "1.5-2 ساعة",
         whyItMatters: "يُمكّن n8n من المشاركة في سلسلة أدوات ذكاء اصطناعي حديثة عبر بروتوكول منظم بدل الربط المؤقت.",
@@ -929,7 +929,7 @@ const phases: Phase[] = [
     topics: [
       {
         id: "mcp",
-        title: "MCP Integration for mcp.muhjah.com",
+        title: "MCP Integration for mcp.synorco.com/jamal",
         kind: "Protocol Integration",
         difficulty: "Advanced",
         estimatedTime: "1.5-2 hours",
@@ -939,7 +939,7 @@ const phases: Phase[] = [
         links: [
           { label: "Getting started guide", href: "https://n8ntips.com/getting-started-with-model-context-protocol-mcp-on-n8n-2/", kind: "guide" },
           { label: "Live demo discussion", href: "https://community.n8n.io/t/what-is-mcp-how-to-use-it-in-n8n-full-guide-live-demo/105756", kind: "guide" },
-          { label: "Open MCP server", href: "https://mcp.muhjah.com", kind: "environment" },
+          { label: "Open MCP server", href: "https://mcp.synorco.com/jamal", kind: "environment" },
         ],
         featured: true,
       },
@@ -1022,7 +1022,7 @@ const resources = [
   {
     title: "MCP environment",
     description: "Your target integration endpoint for advanced protocol work.",
-    href: "https://mcp.muhjah.com",
+    href: "https://mcp.synorco.com/jamal",
     accent: "from-[#F59E0B] to-[#FCD34D]",
   },
 ];
@@ -1067,7 +1067,7 @@ const phaseIconMap: Record<string, typeof Rocket> = {
 export default function N8nLearningRoadmap({
   learnerName = "Colleague Name",
   n8nUrl = "https://n8n.synorco.com",
-  mcpUrl = "https://mcp.muhjah.com",
+  mcpUrl = "https://mcp.synorco.com/jamal",
   className = "",
 }: RoadmapProps) {
   const [progress, setProgress] = useState<ProgressState>({});

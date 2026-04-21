@@ -5,7 +5,7 @@ export default function App() {
     <N8nLearningRoadmap
       learnerName="Colleague Name"
       n8nUrl="https://n8n.synorco.com"
-      mcpUrl="https://mcp.muhjah.com"
+      mcpUrl="https://mcp.synorco.com/jamal"
     />
   );
 }
